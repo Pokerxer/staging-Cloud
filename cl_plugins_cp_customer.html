@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Learn how your customers will work with Weebly and cPanel">
+<meta name="keywords" content="getting_startedplugins,  cPanel, customer,">
+<title>cPanel Customer Guide | Weebly Cloud Developer Documentation</title>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- Third-Party CSS -->
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" media="screen" href="css/orbit-external.css">
+<link rel="stylesheet" media="screen" href="css/orbit.css">
+<link rel="stylesheet" media="screen" href="css/theme-weebly.css">
+
+<!-- Third-Party JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+<script src="js/jekyll-search.js" type="text/javascript"></script>
+<script src="js/toc.js"></script>
+
+<!-- Custom JS -->
+<script src="js/customscripts.js"></script>
+
+
+
+</head>
+<body>
+
+<!-- Navigation -->
+
+<div class="top-nav">
+
+	<div class="top-nav-item">
+		<img src="images/weebly_cloud_logo.svg" alt="Weebly Cloud" class="cloud-logo" role="button" tabindex="0" alt="menu"/>
+	</div>
+
+	<div class="top-nav-item">
+		<img class="mobile-nav-btn" src="images/icons/mobile-menu.svg" alt="Mobile menu">
+	</div>
+
+	<nav class="top-nav-item">
+		<div class="nav-group">
+			<ul class="NavList nav-group-list horizontal">
+				<!-- entries without drop-downs appear here -->
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="home.html" class="NavLink nav-group-list-link">Get Started</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_api_about.html" class="NavLink nav-group-list-link">Cloud API</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_plugins_about.html" class="NavLink nav-group-list-link">Plugins</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_apps_gs.html" class="NavLink nav-group-list-link">Apps</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_themes_start.html" class="NavLink nav-group-list-link">Themes</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_tags.html" class="NavLink nav-group-list-link">Tags</a>
+				</li>
+				
+				
+				
+				<!-- entries with drop-downs appear here -->
+				<!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+				
+				<!--
+			<li class="NavLinkLi">
+
+
+
+  <a class="email NavLink nav-group-list-link" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:rwhitmore@weebly.com?subject=Weebly Cloud Developer Docs feedback&body=I have some feedback about the cPanel Customer Guide page: ' + window.location.href;">Feedback</a>
+
+</li>
+
+-->
+        <li class="NavLinkLi">
+
+  <a href="https://weeblycloud.com/admin" target="_blank">Cloud Admin</a>
+</li>
+
+
+		
+
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="Search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+	</nav>
+</div>
+
+
+
+
+
+
+<div class="page has-sidebar">
+    
+      <div class="col-sidebar">
+       	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav NavList">
+    
+	    
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">Using Plugins</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_about.html" class="NavLink isSecondary">Using Plugins</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">cPanel</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_cp_install.html" class="NavLink isSecondary">Install and Configure the cPanel Plugin</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_cp_billing.html" class="NavLink isSecondary">Integrate cPanel with Billing</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="active isActive NavLinkLi">
+					            	<a href="cl_plugins_cp_customer.html" class="NavLink  isSecondary">cPanel Customer Guide</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">WHMCS</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_install.html" class="NavLink isSecondary">Install and Configure WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_products.html" class="NavLink isSecondary">Set Up Products in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_bundles.html" class="NavLink isSecondary">Create Bundles in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_urls.html" class="NavLink isSecondary">Set up URLs in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_suspend.html" class="NavLink isSecondary">Suspend and Reactivate Accounts in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_localize.html" class="NavLink isSecondary">Change or Localize Text in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_customer.html" class="NavLink isSecondary">WHMCS Customer Guide</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_troubleshoot.html" class="NavLink isSecondary">Troubleshoot WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">AppDirect</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_appdirect_activate.html" class="NavLink isSecondary">Activate the AppDirect Plugin</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_appdirect_products.html" class="NavLink isSecondary">Create AppDirect Products</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">APS2</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_install.html" class="NavLink isSecondary">Install and Configure APS2</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_plans.html" class="NavLink isSecondary">Create Plans in APS2</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_customer.html" class="NavLink isSecondary">APS2 Customer Guide</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_troubleshoot.html" class="NavLink isSecondary">Troubleshoot APS2</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+    
+
+</ul>
+
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>
+$("li.active").parents('li').toggleClass("active");
+</script>
+
+      </div>
+    
+
+    <div class="col-content">
+        <div>
+    <div class="post-header">
+        <h1 class="post-title-main display-1">cPanel Customer Guide</h1>
+    </div>
+    <div class="page-type">  concepts </div>
+</div>
+
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">Learn how your customers will work with Weebly and cPanel</div>
+   
+
+    
+    <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+
+	$('#toc').toc({
+		minimumHeaders: 2, // Don't show ToC if there is only one header
+		listType: 'ul',
+		showSpeed: 0,
+		headers: 'h2'
+	});
+
+	/* this offset helps account for the space taken up by the floating toolbar. */
+	$('#toc').on('click', 'a', function() {
+	  var target = $(this.getAttribute('href'))
+	    , scroll_target = target.offset().top
+
+	  $(window).scrollTop(scroll_target - 50);
+	  return false
+	})
+
+});
+</script>
+
+<div id="toc" class="toc"></div>
+
+    
+
+    
+
+  <p>Now that you’ve installed and configured the cPanel plugin here’s how your customers will interface with it.
+​
+Just like most cPanel plugins the user can access the Weebly plugin by finding the plugin logo in their cPanel home page.</p>
+
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_cpanel.png" alt="Weebly in cPanel" />
+
+	
+
+	
+		<figcaption>Weebly in cPanel</figcaption>
+	</figure>
+
+<p>After the user clicks the Weebly icon they are sent to a page to start creating their first Weebly site. They will see two things. The first is a brief introduction video that goes into detail about the benefits of a Weebly website. The second is a dropdown of all domain names that they currently have in cPanel and can be used with Weebly. If a domain does not appear, it either contains the word “Weebly” or is already in use on the Weebly platform.</p>
+
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_cpanel2.png" alt="Weebly Editor in cPanel" />
+
+	
+
+	
+		<figcaption>Weebly Editor in cPanel</figcaption>
+	</figure>
+
+<p>Once the user clicks the <strong>Add</strong> button below the dropdown they will be sent to a url (we call this url the <em>billing url</em>) for payment information.</p>
+
+<p>If you use WHMCS in conjunction with cPanel you should use WHMCS as your billing url. Learn more <a href="cl_plugins_whmcs_urls.html">here</a>.</p>
+
+<p>Once the user completes the purchase through the billing url they will now see an <strong>Edit Site</strong> button upon their next visit to cPanel. The <strong>Edit Site</strong> button gives them direct access to their Weebly website.</p>
+
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_cpanel3.png" alt="Weebly User Portal" />
+
+	
+
+	
+		<figcaption>Weebly User Portal</figcaption>
+	</figure>
+
+<p>The user can have as many Weebly sites as they’d like. The <strong>Add Site</strong> button will appear if they have at least one domain that isn’t a Weebly site.</p>
+
+
+
+    <div class="tags">
+        
+            Tags:<br/>
+	        
+
+            
+
+                
+		        	<a href="tag_getting_started.html" class="btn btn-default navbar-btn cursorNorm tags-link" role="button">getting_started</a>
+		        
+
+	        
+
+                
+		        	<a href="tag_plugins.html" class="btn btn-default navbar-btn cursorNorm tags-link" role="button">plugins</a>
+		        
+
+	        
+        
+    </div>
+
+    
+
+</div>
+
+<hr class="shaded"/>
+
+<footer class="footer">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="footer__fineprint">
+				&copy;2018 Weebly. All rights reserved. <br />
+				 Site last generated: Jan 18, 2018
+			</div>
+			<div class="footer__logo">
+				<img src="images/weebly_logo.svg" alt="Weebly logo"/>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+    </div>
+</div>
+
+
+
+</body>
+</html>

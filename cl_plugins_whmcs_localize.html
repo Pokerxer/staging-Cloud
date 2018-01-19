@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="You can change the English text customers see in the WHMCS plug-in, and you can also localize this text into other languages.">
+<meta name="keywords" content="configurationplugins,  localization, localize, text">
+<title>Change or Localize Text in WHMCS | Weebly Cloud Developer Documentation</title>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- Third-Party CSS -->
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" media="screen" href="css/orbit-external.css">
+<link rel="stylesheet" media="screen" href="css/orbit.css">
+<link rel="stylesheet" media="screen" href="css/theme-weebly.css">
+
+<!-- Third-Party JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+<script src="js/jekyll-search.js" type="text/javascript"></script>
+<script src="js/toc.js"></script>
+
+<!-- Custom JS -->
+<script src="js/customscripts.js"></script>
+
+
+
+</head>
+<body>
+
+<!-- Navigation -->
+
+<div class="top-nav">
+
+	<div class="top-nav-item">
+		<img src="images/weebly_cloud_logo.svg" alt="Weebly Cloud" class="cloud-logo" role="button" tabindex="0" alt="menu"/>
+	</div>
+
+	<div class="top-nav-item">
+		<img class="mobile-nav-btn" src="images/icons/mobile-menu.svg" alt="Mobile menu">
+	</div>
+
+	<nav class="top-nav-item">
+		<div class="nav-group">
+			<ul class="NavList nav-group-list horizontal">
+				<!-- entries without drop-downs appear here -->
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="home.html" class="NavLink nav-group-list-link">Get Started</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_api_about.html" class="NavLink nav-group-list-link">Cloud API</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_plugins_about.html" class="NavLink nav-group-list-link">Plugins</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_apps_gs.html" class="NavLink nav-group-list-link">Apps</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_themes_start.html" class="NavLink nav-group-list-link">Themes</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_tags.html" class="NavLink nav-group-list-link">Tags</a>
+				</li>
+				
+				
+				
+				<!-- entries with drop-downs appear here -->
+				<!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+				
+				<!--
+			<li class="NavLinkLi">
+
+
+
+  <a class="email NavLink nav-group-list-link" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:rwhitmore@weebly.com?subject=Weebly Cloud Developer Docs feedback&body=I have some feedback about the Change or Localize Text in WHMCS page: ' + window.location.href;">Feedback</a>
+
+</li>
+
+-->
+        <li class="NavLinkLi">
+
+  <a href="https://weeblycloud.com/admin" target="_blank">Cloud Admin</a>
+</li>
+
+
+		
+
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="Search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+	</nav>
+</div>
+
+
+
+
+
+
+<div class="page has-sidebar">
+    
+      <div class="col-sidebar">
+       	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav NavList">
+    
+	    
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">Using Plugins</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_about.html" class="NavLink isSecondary">Using Plugins</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">cPanel</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_cp_install.html" class="NavLink isSecondary">Install and Configure the cPanel Plugin</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_cp_billing.html" class="NavLink isSecondary">Integrate cPanel with Billing</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_cp_customer.html" class="NavLink isSecondary">cPanel Customer Guide</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">WHMCS</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_install.html" class="NavLink isSecondary">Install and Configure WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_products.html" class="NavLink isSecondary">Set Up Products in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_bundles.html" class="NavLink isSecondary">Create Bundles in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_urls.html" class="NavLink isSecondary">Set up URLs in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_suspend.html" class="NavLink isSecondary">Suspend and Reactivate Accounts in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="active isActive NavLinkLi">
+					            	<a href="cl_plugins_whmcs_localize.html" class="NavLink  isSecondary">Change or Localize Text in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_customer.html" class="NavLink isSecondary">WHMCS Customer Guide</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_troubleshoot.html" class="NavLink isSecondary">Troubleshoot WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">AppDirect</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_appdirect_activate.html" class="NavLink isSecondary">Activate the AppDirect Plugin</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_appdirect_products.html" class="NavLink isSecondary">Create AppDirect Products</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">APS2</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_install.html" class="NavLink isSecondary">Install and Configure APS2</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_plans.html" class="NavLink isSecondary">Create Plans in APS2</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_customer.html" class="NavLink isSecondary">APS2 Customer Guide</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_troubleshoot.html" class="NavLink isSecondary">Troubleshoot APS2</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+    
+
+</ul>
+
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>
+$("li.active").parents('li').toggleClass("active");
+</script>
+
+      </div>
+    
+
+    <div class="col-content">
+        <div>
+    <div class="post-header">
+        <h1 class="post-title-main display-1">Change or Localize Text in WHMCS</h1>
+    </div>
+    <div class="page-type">  task </div>
+</div>
+
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">You can change the English text customers see in the WHMCS plug-in, and you can also localize this text into other languages.</div>
+   
+
+    
+    <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+
+	$('#toc').toc({
+		minimumHeaders: 2, // Don't show ToC if there is only one header
+		listType: 'ul',
+		showSpeed: 0,
+		headers: 'h2'
+	});
+
+	/* this offset helps account for the space taken up by the floating toolbar. */
+	$('#toc').on('click', 'a', function() {
+	  var target = $(this.getAttribute('href'))
+	    , scroll_target = target.offset().top
+
+	  $(window).scrollTop(scroll_target - 50);
+	  return false
+	})
+
+});
+</script>
+
+<div id="toc" class="toc"></div>
+
+    
+
+    
+
+  <h2 id="about-changing-or-localizing-text">About Changing or Localizing Text</h2>
+
+<p>Default text for the Weebly WHMCS plug-in is stored in the <code class="highlighter-rouge">./lang/weebly_lang_english.php</code> file. You can’t directly change values in this file (for example, if you want to change the English value) as your changes would be overwritten with the next upgrade of WHMCS. Instead, for both changing the English, or for creating a localized version in another language, you download a copy of this file (below) and store the copy in an override directory, providing the overritten English or the translated values. Overritten English values will be displayed the next time the customer views the page containing the variable. For translations, when the customer chooses a language, WHMCS uses the variable in that language’s override file instead of the default English text.</p>
+
+<p>WHMCS supports the following translations:</p>
+
+<ul>
+  <li>Arabic</li>
+  <li>Azerbaijani</li>
+  <li>Catalan</li>
+  <li>Croatian</li>
+  <li>Czech</li>
+  <li>Danish</li>
+  <li>Dutch</li>
+  <li>English</li>
+  <li>Estonian</li>
+  <li>Farsi</li>
+  <li>French</li>
+  <li>German</li>
+  <li>Hebrew</li>
+  <li>Hungarian</li>
+  <li>Italian</li>
+  <li>Norwegian</li>
+  <li>Portuguese-br</li>
+  <li>Portuguese-pt</li>
+  <li>Romanian</li>
+  <li>Russian</li>
+  <li>Spanish</li>
+  <li>Swedish</li>
+  <li>Turkish</li>
+  <li>Ukranian</li>
+</ul>
+
+<p>​Here’s an example of the variables in the <code class="highlighter-rouge">weebly_lang_english.php</code> file that you can override:</p>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php">
+<span class="cp">&lt;?php</span>
+<span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="nv">$_LANG</span><span class="p">[</span><span class="s1">'WEEBLYCLOUD_PANEL_GETSTARTED'</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"Get Started"</span><span class="p">;</span>
+<span class="nv">$_LANG</span><span class="p">[</span><span class="s1">'WEEBLYCLOUD_PANEL_ADDSITE'</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"Add Site"</span><span class="p">;</span>
+<span class="nv">$_LANG</span><span class="p">[</span><span class="s1">'WEEBLYCLOUD_PANEL_EDITSITE'</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"Edit Site"</span><span class="p">;</span>
+<span class="o">.</span> <span class="o">.</span> <span class="o">.</span></code></pre></figure>
+
+<p>For example, if you were creating a Spanish translation, you might change:
+<code class="highlighter-rouge">$_LANG['WEEBLYCLOUD_PANEL_GETSTARTED'] = "Get Started";</code></p>
+
+<p>to:</p>
+
+<p><code class="highlighter-rouge">$_LANG['WEEBLYCLOUD_PANEL_GETSTARTED'] = "Empezar";</code></p>
+
+<p>Be sure to thoroughly test your translations to make sure the characters display properly and the text boxes are sized properly.</p>
+
+<h2 id="download-this-file-to-begin">Download This File to Begin</h2>
+<p>Download the <a href="downloads/weebly_lang_english.php">weebly_lang_english.php</a> file and save it to a local directory. You will need to copy it and save the variations to your WHMCS overrides directory. Follow the instructions below, based on whether or not you have existing WHMCS translations.</p>
+
+<h2 id="if-you-do-not-have-existing-whmcs-language-override-files">If You Do Not Have Existing WHMCS Language Override Files</h2>
+
+<p>If you have never created localized versions of files for WHMCS, then you’ll need to create the expected directory and override files:</p>
+
+<ol>
+  <li>Create a directory named <code class="highlighter-rouge">overrides</code> as a child to the <code class="highlighter-rouge">&lt;WHMCS_Install_Directory&gt;/lang/</code> directory.</li>
+  <li>
+    <p>Copy the <code class="highlighter-rouge">weebly_lang_english.php</code> file and paste it to the <code class="highlighter-rouge">&lt;WHMCS_Install_Directory&gt;/lang/overrides/</code> directory, renaming the file to reflect the language, from the list above.</p>
+
+    <p>For example, if you were going to create a Spanish version, you would rename the file to <code class="highlighter-rouge">spanish.php</code>. If you were overriding the default English values, then keep the same name, just make sure it’s stored in the overrides directory and that you’re not replacing the original.</p>
+  </li>
+  <li>Replace the strings for each variable with strings in your desired language. Only change the strings inside the quotes (‘…’). Do not change the variable names.</li>
+</ol>
+
+<div class="Notice type_info" role="alert">
+	<b>Note:</b> Do not change any of the code above <code class="highlighter-rouge">/* WeeblyCloud language variables */</code>.
+    Changing that code will result in server errors.
+</div>
+
+<h2 id="if-you-already-have-language-override-files">If You Already Have Language Override Files</h2>
+
+<p>If you already have localized files in the overrides directory, then you need to append the Weebly variables to those and provide translations.</p>
+
+<ol>
+  <li>Open the <code class="highlighter-rouge">weebly_lang_english.php</code> file and copy everything from <code class="highlighter-rouge">/* WeeblyCloud language variables */</code> to the end of the file. These are all the Weebly variables.</li>
+  <li>Open your existing language file(s) in the <code class="highlighter-rouge">overrides</code> directory and and paste in the Weebly variables to the end of your file, being careful to not overwrite any existing variables.</li>
+  <li>Replace the strings for each variable with strings in your desired language. Only change the strings inside the quotes (‘…’). Do not change the variable names.</li>
+</ol>
+
+
+    <div class="tags">
+        
+            Tags:<br/>
+	        
+
+            
+
+                
+		        	<a href="tag_configuration.html" class="btn btn-default navbar-btn cursorNorm tags-link" role="button">configuration</a>
+		        
+
+	        
+
+                
+		        	<a href="tag_plugins.html" class="btn btn-default navbar-btn cursorNorm tags-link" role="button">plugins</a>
+		        
+
+	        
+        
+    </div>
+
+    
+
+</div>
+
+<hr class="shaded"/>
+
+<footer class="footer">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="footer__fineprint">
+				&copy;2018 Weebly. All rights reserved. <br />
+				 Site last generated: Jan 18, 2018
+			</div>
+			<div class="footer__logo">
+				<img src="images/weebly_logo.svg" alt="Weebly logo"/>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+    </div>
+</div>
+
+
+
+</body>
+</html>

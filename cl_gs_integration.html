@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The Weebly Cloud platform allows you to easily integrate Weebly into your existing internal application, CMS or third party web application.">
+<meta name="keywords" content="getting_started,  ">
+<title>Integration Overview | Weebly Cloud Developer Documentation</title>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- Third-Party CSS -->
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" media="screen" href="css/orbit-external.css">
+<link rel="stylesheet" media="screen" href="css/orbit.css">
+<link rel="stylesheet" media="screen" href="css/theme-weebly.css">
+
+<!-- Third-Party JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+<script src="js/jekyll-search.js" type="text/javascript"></script>
+<script src="js/toc.js"></script>
+
+<!-- Custom JS -->
+<script src="js/customscripts.js"></script>
+
+
+
+</head>
+<body>
+
+<!-- Navigation -->
+
+<div class="top-nav">
+
+	<div class="top-nav-item">
+		<img src="images/weebly_cloud_logo.svg" alt="Weebly Cloud" class="cloud-logo" role="button" tabindex="0" alt="menu"/>
+	</div>
+
+	<div class="top-nav-item">
+		<img class="mobile-nav-btn" src="images/icons/mobile-menu.svg" alt="Mobile menu">
+	</div>
+
+	<nav class="top-nav-item">
+		<div class="nav-group">
+			<ul class="NavList nav-group-list horizontal">
+				<!-- entries without drop-downs appear here -->
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="home.html" class="NavLink nav-group-list-link">Get Started</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_api_about.html" class="NavLink nav-group-list-link">Cloud API</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_plugins_about.html" class="NavLink nav-group-list-link">Plugins</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_apps_gs.html" class="NavLink nav-group-list-link">Apps</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_themes_start.html" class="NavLink nav-group-list-link">Themes</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_tags.html" class="NavLink nav-group-list-link">Tags</a>
+				</li>
+				
+				
+				
+				<!-- entries with drop-downs appear here -->
+				<!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+				
+				<!--
+			<li class="NavLinkLi">
+
+
+
+  <a class="email NavLink nav-group-list-link" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:rwhitmore@weebly.com?subject=Weebly Cloud Developer Docs feedback&body=I have some feedback about the Integration Overview page: ' + window.location.href;">Feedback</a>
+
+</li>
+
+-->
+        <li class="NavLinkLi">
+
+  <a href="https://weeblycloud.com/admin" target="_blank">Cloud Admin</a>
+</li>
+
+
+		
+
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="Search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+	</nav>
+</div>
+
+
+
+
+
+
+<div class="page has-sidebar">
+    
+      <div class="col-sidebar">
+       	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav NavList">
+    
+	    
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">Get Started</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="home.html" class="NavLink isSecondary">Get Started with Weebly Cloud</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="active isActive NavLinkLi">
+					            	<a href="cl_gs_integration.html" class="NavLink  isSecondary">Integration Overview</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_admin.html" class="NavLink isSecondary">Use Weebly Cloud Admin</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_client_ui.html" class="NavLink isSecondary">How Your Clients Work with You</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_apps.html" class="NavLink isSecondary">Provide Apps to Your Customers</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_hosting.html" class="NavLink isSecondary">Understand Hosting Options</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_configure.html" class="NavLink isSecondary">Configure Weebly Cloud</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_team_members.html" class="NavLink isSecondary">Create Cloud Admin Users</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">Integrate Weebly</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_plans.html" class="NavLink isSecondary">Create Plans</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_users.html" class="NavLink isSecondary">Create and Manage Users</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_cr_sites.html" class="NavLink isSecondary">Create Sites</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">Manage Weebly</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_upgrades.html" class="NavLink isSecondary">Handle Upgrades</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_loginlink.html" class="NavLink isSecondary">Provide SSO Access with a loginLink</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_editSites.html" class="NavLink isSecondary">Edit, Preview, and Publish Sites</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_removeSites.html" class="NavLink isSecondary">Suspend and Remove Sites</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_restore.html" class="NavLink isSecondary">Restore Elements, Pages, and Sites</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_ssl.html" class="NavLink isSecondary">Allow Sites to Use SSL</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_access_sites.html" class="NavLink isSecondary">Create and Manage Site Contributors</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_subresellers.html" class="NavLink isSecondary">Create and Manage Sub-Resellers</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_market.html" class="NavLink isSecondary">Market to Your Customers in Weebly</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_invoice.html" class="NavLink isSecondary">View and Pay Weebly Invoices</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">Troubleshooting</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_trouble.html" class="NavLink isSecondary">Troubleshooting Weebly Cloud</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+    
+
+</ul>
+
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>
+$("li.active").parents('li').toggleClass("active");
+</script>
+
+      </div>
+    
+
+    <div class="col-content">
+        <div>
+    <div class="post-header">
+        <h1 class="post-title-main display-1">Integration Overview</h1>
+    </div>
+    <div class="page-type">  concepts </div>
+</div>
+
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">The Weebly Cloud platform allows you to easily integrate Weebly into your existing internal application, CMS or third party web application.</div>
+   
+
+    
+    <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+
+	$('#toc').toc({
+		minimumHeaders: 2, // Don't show ToC if there is only one header
+		listType: 'ul',
+		showSpeed: 0,
+		headers: 'h2'
+	});
+
+	/* this offset helps account for the space taken up by the floating toolbar. */
+	$('#toc').on('click', 'a', function() {
+	  var target = $(this.getAttribute('href'))
+	    , scroll_target = target.offset().top
+
+	  $(window).scrollTop(scroll_target - 50);
+	  return false
+	})
+
+});
+</script>
+
+<div id="toc" class="toc"></div>
+
+    
+
+    
+
+  <p>You can work with Weebly Cloud using plugins, the Weebly Cloud RESTful API, or the Cloud Admin tool.</p>
+
+<h2 id="using-plug-ins">Using Plug-ins</h2>
+
+<p>We provide plug-ins that work with the following:</p>
+<ul>
+  <li><strong><a href="cl_plugins_cp_install.html">cPanel</a></strong>: Your customers can provision and manage their Weebly sites through cPanel</li>
+  <li><strong><a href="cl_plugins_whmcs_install.html">WHMCS</a></strong>: You can integrate WHMCS to to manage billing, upgrades and provisioning. Works in conjunction with our cPanel plugin or standalone.</li>
+  <li><strong><a href="cl_plugins_appdirect_activate.html">AppDirect</a></strong>: You can integrate with AppDirect so your customers can create their Weebly site from the AppDirect marketplace.</li>
+  <li><strong><a href="cl_plugins_aps2_install.html">APS2</a></strong>: Customers can use APS2 to create and manage their Weebly sites.</li>
+</ul>
+
+<h2 id="working-with-the-weebly-cloud-api">Working with the Weebly Cloud API</h2>
+
+<p>​When you need to access the API programmatically, you can use the Weebly Cloud API. It’s a RESTful API that utilizes HTTP verbs GET, POST, PUT, PATCH and DELETE. Authorization for the API is handled through a public key and a private HMAC Hash. We provide <a href="cl_api_about.html#client-libraries">client libraries</a> in four different languages to help get you started. You can find information about our API <a href="cl_api_about.html">here</a>.</p>
+
+<h2 id="working-with-the-cloud-admin">Working with the Cloud Admin</h2>
+
+<p>If you opt to not use <a href="cl_plugins_about.html">plug-ins</a> with Weebly Cloud, then many of the operations needed to manage your customers’ websites can be accomplished using the Cloud Admin. Some of these include the ability to delete and restore sites. You access the portal at <a href="https://weeblycloud.com/admin">https://weeblycloud.com/admin</a>.
+​</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_adminPortal.png" alt="Users tab selected in the Cloud Admin" />
+
+	
+
+	
+		<figcaption>The Cloud Admin</figcaption>
+	</figure>
+
+<p>​
+You can also access the Cloud Admin from the Admin Login button at the top right of this and every doc page.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_login.png" alt="Cloud Admin Link" />
+
+	
+
+	
+		<figcaption>Access the Admin from the Docs</figcaption>
+	</figure>
+
+<p>​Steps for creating users of the Cloud Admin (called team members) can be found <a href="cl_gs_team_members.html">here</a>.</p>
+
+
+    <div class="tags">
+        
+            Tags:<br/>
+	        
+
+            
+
+                
+		        	<a href="tag_getting_started.html" class="btn btn-default navbar-btn cursorNorm tags-link" role="button">getting_started</a>
+		        
+
+	        
+        
+    </div>
+
+    
+
+</div>
+
+<hr class="shaded"/>
+
+<footer class="footer">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="footer__fineprint">
+				&copy;2018 Weebly. All rights reserved. <br />
+				 Site last generated: Jan 18, 2018
+			</div>
+			<div class="footer__logo">
+				<img src="images/weebly_logo.svg" alt="Weebly logo"/>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+    </div>
+</div>
+
+
+
+</body>
+</html>

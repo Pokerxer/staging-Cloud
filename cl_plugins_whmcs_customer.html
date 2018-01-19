@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Learn how your customers with work with WHMCS">
+<meta name="keywords" content="getting_startedplugins,  WHMCS, customer">
+<title>WHMCS Customer Guide | Weebly Cloud Developer Documentation</title>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- Third-Party CSS -->
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" media="screen" href="css/orbit-external.css">
+<link rel="stylesheet" media="screen" href="css/orbit.css">
+<link rel="stylesheet" media="screen" href="css/theme-weebly.css">
+
+<!-- Third-Party JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+<script src="js/jekyll-search.js" type="text/javascript"></script>
+<script src="js/toc.js"></script>
+
+<!-- Custom JS -->
+<script src="js/customscripts.js"></script>
+
+
+
+</head>
+<body>
+
+<!-- Navigation -->
+
+<div class="top-nav">
+
+	<div class="top-nav-item">
+		<img src="images/weebly_cloud_logo.svg" alt="Weebly Cloud" class="cloud-logo" role="button" tabindex="0" alt="menu"/>
+	</div>
+
+	<div class="top-nav-item">
+		<img class="mobile-nav-btn" src="images/icons/mobile-menu.svg" alt="Mobile menu">
+	</div>
+
+	<nav class="top-nav-item">
+		<div class="nav-group">
+			<ul class="NavList nav-group-list horizontal">
+				<!-- entries without drop-downs appear here -->
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="home.html" class="NavLink nav-group-list-link">Get Started</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_api_about.html" class="NavLink nav-group-list-link">Cloud API</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_plugins_about.html" class="NavLink nav-group-list-link">Plugins</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_apps_gs.html" class="NavLink nav-group-list-link">Apps</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_themes_start.html" class="NavLink nav-group-list-link">Themes</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_tags.html" class="NavLink nav-group-list-link">Tags</a>
+				</li>
+				
+				
+				
+				<!-- entries with drop-downs appear here -->
+				<!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+				
+				<!--
+			<li class="NavLinkLi">
+
+
+
+  <a class="email NavLink nav-group-list-link" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:rwhitmore@weebly.com?subject=Weebly Cloud Developer Docs feedback&body=I have some feedback about the WHMCS Customer Guide page: ' + window.location.href;">Feedback</a>
+
+</li>
+
+-->
+        <li class="NavLinkLi">
+
+  <a href="https://weeblycloud.com/admin" target="_blank">Cloud Admin</a>
+</li>
+
+
+		
+
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="Search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+	</nav>
+</div>
+
+
+
+
+
+
+<div class="page has-sidebar">
+    
+      <div class="col-sidebar">
+       	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav NavList">
+    
+	    
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">Using Plugins</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_about.html" class="NavLink isSecondary">Using Plugins</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">cPanel</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_cp_install.html" class="NavLink isSecondary">Install and Configure the cPanel Plugin</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_cp_billing.html" class="NavLink isSecondary">Integrate cPanel with Billing</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_cp_customer.html" class="NavLink isSecondary">cPanel Customer Guide</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">WHMCS</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_install.html" class="NavLink isSecondary">Install and Configure WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_products.html" class="NavLink isSecondary">Set Up Products in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_bundles.html" class="NavLink isSecondary">Create Bundles in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_urls.html" class="NavLink isSecondary">Set up URLs in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_suspend.html" class="NavLink isSecondary">Suspend and Reactivate Accounts in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_localize.html" class="NavLink isSecondary">Change or Localize Text in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="active isActive NavLinkLi">
+					            	<a href="cl_plugins_whmcs_customer.html" class="NavLink  isSecondary">WHMCS Customer Guide</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_troubleshoot.html" class="NavLink isSecondary">Troubleshoot WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">AppDirect</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_appdirect_activate.html" class="NavLink isSecondary">Activate the AppDirect Plugin</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_appdirect_products.html" class="NavLink isSecondary">Create AppDirect Products</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">APS2</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_install.html" class="NavLink isSecondary">Install and Configure APS2</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_plans.html" class="NavLink isSecondary">Create Plans in APS2</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_customer.html" class="NavLink isSecondary">APS2 Customer Guide</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_troubleshoot.html" class="NavLink isSecondary">Troubleshoot APS2</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+    
+
+</ul>
+
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>
+$("li.active").parents('li').toggleClass("active");
+</script>
+
+      </div>
+    
+
+    <div class="col-content">
+        <div>
+    <div class="post-header">
+        <h1 class="post-title-main display-1">WHMCS Customer Guide</h1>
+    </div>
+    <div class="page-type">  concepts </div>
+</div>
+
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">Learn how your customers with work with WHMCS</div>
+   
+
+    
+    <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+
+	$('#toc').toc({
+		minimumHeaders: 2, // Don't show ToC if there is only one header
+		listType: 'ul',
+		showSpeed: 0,
+		headers: 'h2'
+	});
+
+	/* this offset helps account for the space taken up by the floating toolbar. */
+	$('#toc').on('click', 'a', function() {
+	  var target = $(this.getAttribute('href'))
+	    , scroll_target = target.offset().top
+
+	  $(window).scrollTop(scroll_target - 50);
+	  return false
+	})
+
+});
+</script>
+
+<div id="toc" class="toc"></div>
+
+    
+
+    
+
+  <h2 id="whmcs-standalone">WHMCS Standalone</h2>
+<p>In a standalone integration everything takes place in WHMCS. The user logs in to WHMCS and under <strong>Order New Service</strong> they select the <strong>Weebly Plans</strong> option. They will see all Weebly plans configured in your WHMCS install. Shown below is a default installation which offers all 4 Weebly plans (Free, Starter, Pro and Business).</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_whmcs_plan.png" alt="Plans displayed in WHMCS" />
+
+	
+
+	
+		<figcaption>Plans displayed in WHMCS</figcaption>
+	</figure>
+
+<p>The user selects which WHMCS Weebly plan they’d like to create. If you offer both monthly and annual pricing, then this will display in the dropdown. The user must provide a domain name for their Weebly website. They enter this in the Additional Required Information section.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_whmcs_planAssign.png" alt="Assign a plan in WHMCS" />
+
+	
+
+	
+		<figcaption>Assign a plan in WHMCS</figcaption>
+	</figure>
+
+<p>​
+When the user clicks <strong>Add to Cart</strong> they are prompted to enter their payment information (or use an existing payment method). At this point the order is created in WHMCS. Once the payment is confirmed the Weebly website is created. Payment confirmation is automatic by default and doesn’t require any manual intervention by the admin.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_whmcs_payment.png" alt="Payment in WHMCS" />
+
+	
+
+	
+		<figcaption>Payment in WHMCS</figcaption>
+	</figure>
+
+<p>Once the order has gone through, the user sees an <strong>Active</strong> status under <strong>My Services</strong>. Clicking the <strong>View Details</strong> button takes the user into an order details page. An <strong>Edit Site</strong> button takes the user into the Weebly editor where they can start working on their website.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_whmcs_details.png" alt="Order Details page" />
+
+	
+
+	
+		<figcaption>Order Details page</figcaption>
+	</figure>
+
+<p>From here, the user can build the website.</p>
+
+<h2 id="whmcs-with-cpanel">WHMCS with cPanel</h2>
+<p>The second type of integration is combining our WHMCS module with our cPanel plugin. As many service providers use both WHMCS and cPanel we’ve tried to make it as seamless as possible to use the products together. Everything stated in the WHMCS standalone guide works in an integration with both WHMCS and cPanel.</p>
+
+<p>Pictured below is what a user sees when they first click the Weebly icon in cPanel. All the available domains are listed in the dropdown. If a domain is not listed, it is already in use on the Weebly platform or contains the word “Weebly.”</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_whmcs_cpanel.png" alt="Using WHMCS with cPanel" />
+
+	
+
+	
+		<figcaption>Using WHMCS with cPanel</figcaption>
+	</figure>
+
+<p>When the user clicks the <strong>Add</strong> button they are directed to the billing url, as set in your Cloud Admin account or directly in WHMCS.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_whmcs_plan.png" alt="Select a plan" />
+
+	
+
+	
+		<figcaption>Select a plan</figcaption>
+	</figure>
+
+<p>The user can select any Weebly plan you have made available in WHMCS. Once the payment is confirmed in WHMCS the user has access to their newly created Weebly site. Access is available in either WHMCS or cPanel.</p>
+
+<p>When the user returns to cPanel they are taken to the User Portal with a new <strong>Edit Site</strong> button next to the site they just created. This button takes them directly into the Weebly editor where they can update their site.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_userPortal.png" alt="User Portal" />
+
+	
+
+	
+		<figcaption>User Portal</figcaption>
+	</figure>
+
+<p>In WHMCS the <strong>Edit Site</strong> button is found under <strong>My Services</strong>. Clicking on the <strong>View Details</strong> button takes the user to an order details page. This page provides the <strong>Edit Site</strong> button.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_whmcs_details.png" alt="Order Details page" />
+
+	
+
+	
+		<figcaption>Order Details page</figcaption>
+	</figure>
+
+<h2 id="whmcs-upgrades">WHMCS Upgrades</h2>
+<p>One of the big advantages to using our WHMCS module is the tight integration in the event a user upgrades while using the Weebly editor. The editor determines if a user has access to a given feature by the Weebly plan assigned to the site. If they try to use a feature not offered by their current plan they are prompted to upgrade. The screenshot below shows a user trying to access the HD Video element when they don’t have access to it.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_upgrade_needed.png" alt="Element can't be dropped on page" />
+
+	
+
+	
+		<figcaption>Element can't be dropped on page</figcaption>
+	</figure>
+
+<p>The modal window below is what is displayed to the user when an upgrade is required to use a certain feature. They can opt to <strong>Try it out</strong> without upgrading; however, it will not display on the published site.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_upgrade_prompt.png" alt="Prompt for upgrade" />
+
+	
+
+	
+		<figcaption>Prompt for upgrade</figcaption>
+	</figure>
+
+<p>When they click <strong>Upgrade Now</strong> an upgrade window is opened. This is known as the upgrade_url. You can learn more about upgrades <a href="cl_gs_upgrades.html">here</a>. The good news you shouldn’t have to do much because upgrades are taken care of by the WHMCS addon. Shown below is the WHMCS upgrade window sitting on top of the Weebly editor. The user is prompted for all potential upgrades that will satisfy the specific upgrade.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_whmcs_upgrade.png" alt="WHMCS upgrade dialog" />
+
+	
+
+	
+		<figcaption>WHMCS upgrade dialog</figcaption>
+	</figure>
+
+<p>After the user chooses which product they’d like to upgrade to they are sent to a summary screen (shown below). After this screen they are prompted for payment method. Once the payment goes through they upgrade window will close and the Weebly editor will refresh automatically. At this point the user will have access to the feature since they have upgrade their site.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_whmcs_upgradeProcess.png" alt="WHMCS upgrade payment process" />
+
+	
+
+	
+		<figcaption>WHMCS upgrade payment process</figcaption>
+	</figure>
+
+<h2 id="whmcs-cancellations">WHMCS Cancellations</h2>
+<p>In the event a user (or WHMCS admin) wants to cancel a subscription, the Weebly website will be deleted. This means the user will no longer have access to the site in the Weebly editor. A user can initiate a Request Cancellation within WHMCS under the Management Actions tab of their service details page.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_whmcs_cancellation.png" alt="Request for cancellation" />
+
+	
+
+	
+		<figcaption>Request for cancellation</figcaption>
+	</figure>
+
+<p>A WHMCS administrator can also trigger a termination by clicking the <strong>Terminate</strong> button within WHMCS. If you’re using cPanel with WHMCS, terminate will remove the associated FTP account/credentials, and delete the Weebly site. If you’re using WHMCS standalone, terminate will delete the Weebly site.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_whmcs_termination.png" alt="WHMCS Admin termination" />
+
+	
+
+	
+		<figcaption>WHMCS Admin termination</figcaption>
+	</figure>
+
+
+
+    <div class="tags">
+        
+            Tags:<br/>
+	        
+
+            
+
+                
+		        	<a href="tag_getting_started.html" class="btn btn-default navbar-btn cursorNorm tags-link" role="button">getting_started</a>
+		        
+
+	        
+
+                
+		        	<a href="tag_plugins.html" class="btn btn-default navbar-btn cursorNorm tags-link" role="button">plugins</a>
+		        
+
+	        
+        
+    </div>
+
+    
+
+</div>
+
+<hr class="shaded"/>
+
+<footer class="footer">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="footer__fineprint">
+				&copy;2018 Weebly. All rights reserved. <br />
+				 Site last generated: Jan 18, 2018
+			</div>
+			<div class="footer__logo">
+				<img src="images/weebly_logo.svg" alt="Weebly logo"/>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+    </div>
+</div>
+
+
+
+</body>
+</html>

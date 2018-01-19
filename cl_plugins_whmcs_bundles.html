@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Along with creating single products from Weebly plans to offer in WHMCS, you can also bundle a Weebly plan with cPanel Shared Hosting in WHMCS.">
+<meta name="keywords" content="configurationplansplugins,  bundles, products, WHMCS, hosting, cPanel">
+<title>Create Bundles in WHMCS | Weebly Cloud Developer Documentation</title>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- Third-Party CSS -->
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" media="screen" href="css/orbit-external.css">
+<link rel="stylesheet" media="screen" href="css/orbit.css">
+<link rel="stylesheet" media="screen" href="css/theme-weebly.css">
+
+<!-- Third-Party JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+<script src="js/jekyll-search.js" type="text/javascript"></script>
+<script src="js/toc.js"></script>
+
+<!-- Custom JS -->
+<script src="js/customscripts.js"></script>
+
+
+
+</head>
+<body>
+
+<!-- Navigation -->
+
+<div class="top-nav">
+
+	<div class="top-nav-item">
+		<img src="images/weebly_cloud_logo.svg" alt="Weebly Cloud" class="cloud-logo" role="button" tabindex="0" alt="menu"/>
+	</div>
+
+	<div class="top-nav-item">
+		<img class="mobile-nav-btn" src="images/icons/mobile-menu.svg" alt="Mobile menu">
+	</div>
+
+	<nav class="top-nav-item">
+		<div class="nav-group">
+			<ul class="NavList nav-group-list horizontal">
+				<!-- entries without drop-downs appear here -->
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="home.html" class="NavLink nav-group-list-link">Get Started</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_api_about.html" class="NavLink nav-group-list-link">Cloud API</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_plugins_about.html" class="NavLink nav-group-list-link">Plugins</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_apps_gs.html" class="NavLink nav-group-list-link">Apps</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_themes_start.html" class="NavLink nav-group-list-link">Themes</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_tags.html" class="NavLink nav-group-list-link">Tags</a>
+				</li>
+				
+				
+				
+				<!-- entries with drop-downs appear here -->
+				<!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+				
+				<!--
+			<li class="NavLinkLi">
+
+
+
+  <a class="email NavLink nav-group-list-link" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:rwhitmore@weebly.com?subject=Weebly Cloud Developer Docs feedback&body=I have some feedback about the Create Bundles in WHMCS page: ' + window.location.href;">Feedback</a>
+
+</li>
+
+-->
+        <li class="NavLinkLi">
+
+  <a href="https://weeblycloud.com/admin" target="_blank">Cloud Admin</a>
+</li>
+
+
+		
+
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="Search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+	</nav>
+</div>
+
+
+
+
+
+
+<div class="page has-sidebar">
+    
+      <div class="col-sidebar">
+       	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav NavList">
+    
+	    
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">Using Plugins</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_about.html" class="NavLink isSecondary">Using Plugins</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">cPanel</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_cp_install.html" class="NavLink isSecondary">Install and Configure the cPanel Plugin</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_cp_billing.html" class="NavLink isSecondary">Integrate cPanel with Billing</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_cp_customer.html" class="NavLink isSecondary">cPanel Customer Guide</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">WHMCS</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_install.html" class="NavLink isSecondary">Install and Configure WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_products.html" class="NavLink isSecondary">Set Up Products in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="active isActive NavLinkLi">
+					            	<a href="cl_plugins_whmcs_bundles.html" class="NavLink  isSecondary">Create Bundles in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_urls.html" class="NavLink isSecondary">Set up URLs in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_suspend.html" class="NavLink isSecondary">Suspend and Reactivate Accounts in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_localize.html" class="NavLink isSecondary">Change or Localize Text in WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_customer.html" class="NavLink isSecondary">WHMCS Customer Guide</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_whmcs_troubleshoot.html" class="NavLink isSecondary">Troubleshoot WHMCS</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">AppDirect</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_appdirect_activate.html" class="NavLink isSecondary">Activate the AppDirect Plugin</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_appdirect_products.html" class="NavLink isSecondary">Create AppDirect Products</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">APS2</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_install.html" class="NavLink isSecondary">Install and Configure APS2</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_plans.html" class="NavLink isSecondary">Create Plans in APS2</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_customer.html" class="NavLink isSecondary">APS2 Customer Guide</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_plugins_aps2_troubleshoot.html" class="NavLink isSecondary">Troubleshoot APS2</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+    
+
+</ul>
+
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>
+$("li.active").parents('li').toggleClass("active");
+</script>
+
+      </div>
+    
+
+    <div class="col-content">
+        <div>
+    <div class="post-header">
+        <h1 class="post-title-main display-1">Create Bundles in WHMCS</h1>
+    </div>
+    <div class="page-type">  task </div>
+</div>
+
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">Along with creating single products from Weebly plans to offer in WHMCS, you can also bundle a Weebly plan with cPanel Shared Hosting in WHMCS.</div>
+   
+
+    
+    <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+
+	$('#toc').toc({
+		minimumHeaders: 2, // Don't show ToC if there is only one header
+		listType: 'ul',
+		showSpeed: 0,
+		headers: 'h2'
+	});
+
+	/* this offset helps account for the space taken up by the floating toolbar. */
+	$('#toc').on('click', 'a', function() {
+	  var target = $(this.getAttribute('href'))
+	    , scroll_target = target.offset().top
+
+	  $(window).scrollTop(scroll_target - 50);
+	  return false
+	})
+
+});
+</script>
+
+<div id="toc" class="toc"></div>
+
+    
+
+    
+
+  <p>You can create bundles with <a href="cl_gs_plans.html">Weebly plans</a> and Shared Hosting managed by <a href="cl_plugins_cp_install.html">cPanel</a>.</p>
+
+<div class="Notice type_info" role="alert">
+	<b>Note:</b> Plans included in bundles cannot be sold separately. You must create plans specifically for the bundle.
+</div>
+
+<p>Purchasing a bundled plan that includes Weebly and Shared Hosting automatically provisions a Weebly site for the domain chosen during the ordering process, as well as sets publish credentials for that site. The customer will simply log into their cPanel,navigate to the Weebly area, and quickly access their site editor by clicking the <strong>Edit Site</strong> button.​</p>
+
+<h2 id="create-a-plan-for-a-whmcs-bundle-in-weebly">Create a Plan for a WHMCS Bundle in Weebly</h2>
+
+<p>The first step in creating a bundle is to create a Weebly plan specifically for the bundle, following the process <a href="cl_gs_plans.html">here</a>. When creating the bundle, configure it as you would any other plan created in Weebly.</p>
+
+<p>This screenshot shows a version of the Weebly Pro plan created specifically for a  bundle.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_plugins_whmcs_bundleWeebly.png" alt="Create plans in Weebly" />
+
+	
+
+	
+		<figcaption>Create plans in Weebly</figcaption>
+	</figure>
+
+<h2 id="import-the-bundle-plan-into-whmcs">Import the Bundle Plan into WHMCS</h2>
+
+<p>Once you create the plan in Weebly, you need to import it into WHMCS, as you would anytime you create new plans that need to be <a href="cl_plugins_whmcs_products.html">synched with WHMCS</a>. Remember to set the ​price to the true value of the plan within its respective bundle. This price will be added to the price of all other products in the bundle to create the final bundle price.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_plugins_whmcs_bundle_plan.png" alt="Import Weebly plan for bundle" />
+
+	
+
+	
+		<figcaption>Import Weebly plan for bundle</figcaption>
+	</figure>
+
+<h2 id="hide-the-plan-for-the-bundle">Hide the Plan for the Bundle</h2>
+<p>You need to configure the plan to include in your bundle so that it’s hidden in your list of plans. Open Plan Preferences and select Hide from Order Form.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_plugins_whmcs_Hide.png" alt="Hide the bundle's plan" />
+
+	
+
+	
+		<figcaption>Hide the bundle's plan</figcaption>
+	</figure>
+
+<h2 id="create-the-bundle">Create the Bundle</h2>
+<p>Now that the Weebly plan is configured, you can create your bundle.</p>
+
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_plugins_whmcs_bundlesCreate1.png" alt="Create a bundle in WHMCS" />
+
+	
+
+	
+		<figcaption>Create a bundle in WHMCS</figcaption>
+	</figure>
+
+<ol>
+  <li>Hover over the <strong>Setup</strong> ​tab, scroll down to <strong>Products/Services</strong>,​ and click on <strong>Product Bundles</strong>.​</li>
+  <li>Click <strong>Create New Bundle</strong>.</li>
+  <li>Set the <strong>Name</strong>​ of your bundled offering. This is the name that will display to your customers. Next, designate the offerings date range. It is highly recommended that you select <strong>No Expiry</strong> so that the bundle does not auto-expire. Select <strong>Allow Promotions</strong> if you wish to offer this bundle as a promotional offering (discounts, specials, etc.), and select <strong>Show in Product Group</strong>​ if you want to offer this bundle within a specific category/area of your WHMCS store.</li>
+  <li>Click Save Changes.</li>
+</ol>
+
+<p>Your bundle is created and you now need to configure it for sale.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_plugins_whmcs_Bundles.png" alt="Bundles in WHMCS" />
+
+	
+
+	
+		<figcaption>Bundles in WHMCS</figcaption>
+	</figure>
+
+<h2 id="configure-the-bundle">Configure the Bundle</h2>
+<p>You now need to configure the settings for your bundle. Each step is annotated in this image.</p>
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_plugins_whmcs_bundleConfigure.png" alt="Configure bundle settings" />
+
+	
+
+	
+		<figcaption>Configure bundle settings</figcaption>
+	</figure>
+
+<p>​</p>
+<ol>
+  <li>
+    <p>For <strong>Bundle Items</strong>, select the the products to include in your bundle. Make sure you select the Weebly plan created specifically for this bundle. If you don’t, your customers will not be able to find it, as it is hidden from the store as a standalone product. If you need to, you can click on the Configure link for a bundle item to set the billing cycle or override the price. You can also elect to include the bundle in a product group.</p>
+  </li>
+  <li>
+    <p>For <strong>Product Description</strong>, describe all of the products/features a customer would enable by purchasing the bundle. This is the only product description available for the bundled package, so it is important that you are clear and concise wth your description.</p>
+  </li>
+  <li>
+    <p>Set <strong>Display Price</strong> to the sum of the individual prices in the bundle. This is not the actual price of the product, but does need to reflect that price. By default, the actual price is determined by adding up the prices of each individual product in the bundle.</p>
+  </li>
+  <li>
+    <p>Set <strong>Sort Order</strong> to where in your lineup of offerings you want this bundle to appear.</p>
+  </li>
+  <li>
+    <p>Click <strong>Save Changes</strong>.</p>
+  </li>
+</ol>
+
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_plugins_whmcs_configure.png" alt="Configure dialog" />
+
+	
+
+	
+		<figcaption>Configure dialog</figcaption>
+	</figure>
+
+
+
+    <div class="tags">
+        
+            Tags:<br/>
+	        
+
+            
+
+                
+		        	<a href="tag_configuration.html" class="btn btn-default navbar-btn cursorNorm tags-link" role="button">configuration</a>
+		        
+
+	        
+
+                
+		        	<a href="tag_plans.html" class="btn btn-default navbar-btn cursorNorm tags-link" role="button">plans</a>
+		        
+
+	        
+
+                
+		        	<a href="tag_plugins.html" class="btn btn-default navbar-btn cursorNorm tags-link" role="button">plugins</a>
+		        
+
+	        
+        
+    </div>
+
+    
+
+</div>
+
+<hr class="shaded"/>
+
+<footer class="footer">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="footer__fineprint">
+				&copy;2018 Weebly. All rights reserved. <br />
+				 Site last generated: Jan 18, 2018
+			</div>
+			<div class="footer__logo">
+				<img src="images/weebly_logo.svg" alt="Weebly logo"/>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+    </div>
+</div>
+
+
+
+</body>
+</html>

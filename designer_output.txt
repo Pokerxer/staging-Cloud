@@ -1,0 +1,622 @@
+Running ["ScriptCheck", "ImageCheck", "LinkCheck"] on ["./x_designer_output"] on *.html... 
+
+
+Checking 84 external links...
+Ran on 160 files!
+
+
+- ./x_designer_output/404.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/cl_glossary.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_[X].html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_about.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_account.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  linking to ds_api_site.html#patchupdate-a-site, but patchupdate-a-site does not exist (line 692)
+     <a href="ds_api_site.html#patchupdate-a-site">Site API </a>
+- ./x_designer_output/ds_api_blog.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_blog_post.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_category.html
+  *  image images/api_categories.png does not have an alt attribute (line 667)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_category_image.html
+  *  image images/api_cat_image.png does not have an alt attribute (line 667)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_client.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_client_site.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_coupon.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_form.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_form_entry.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_group.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_member.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_order.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_order_billing.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_order_billing_transaction.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_order_item.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_order_shipment.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_order_shipment_transaction.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_page.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_plan.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_product.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_product_image.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/sh_productImages.png does not have an alt attribute (line 667)
+- ./x_designer_output/ds_api_product_option.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_product_sku.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_product_sku_option_choice.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_site.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_store.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_team_member.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_themes_cloud.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_themes_user.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_api_user.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_backend.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_dev.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_element_create.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_element_folders.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_element_js.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_element_man_ex.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_element_manifest.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_element_release.html
+  *  image images/cl_apps_autoInstall.png does not have an alt attribute (line 674)
+  *  image images/ds_app_publish.png does not have an alt attribute (line 692)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_element_settings.html
+  *  image images/externalButton2.png does not have an alt attribute (line 858)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/priceChartSettings.png does not have an alt attribute (line 694)
+  *  image images/priceChartSettingsAdv.png does not have an alt attribute (line 703)
+  *  image images/settings.png does not have an alt attribute (line 664)
+- ./x_designer_output/ds_apps_element_style.html
+  *  External link http://lesscss.org failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_element_temp.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_element_temp_ex.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_element_test.html
+  *  image images/cl_apps_install.png does not have an alt attribute (line 664)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_element_update.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_element_upload.html
+  *  image images/cl_cloudAdmin_newApp.png does not have an alt attribute (line 676)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_elements.html
+  *  image images/elementDropMap2.png does not have an alt attribute (line 770)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/sh_priceChart.png does not have an alt attribute (line 756)
+  *  image images/tutorialModal.png does not have an alt attribute (line 792)
+  *  image images/tutorialNested.png does not have an alt attribute (line 830)
+  *  image images/tutorialSteps.png does not have an alt attribute (line 806)
+  *  image images/tutorialVideo.png does not have an alt attribute (line 818)
+- ./x_designer_output/ds_apps_files.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_gs.html
+  *  image images/ds_apps.png does not have an alt attribute (line 680)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_guides.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_icon.html
+  *  External link http://picsvg.com failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  image images/ElementIconVO.png does not have an alt attribute (line 689)
+  *  image images/element_icon.png does not have an alt attribute (line 663)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_manage.html
+  *  image images/cl_app_status.png does not have an alt attribute (line 726)
+  *  image images/cl_apps.png does not have an alt attribute (line 679)
+  *  image images/cl_apps_list.png does not have an alt attribute (line 664)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_manifest.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_reg.html
+  *  image images/ds_apps.png does not have an alt attribute (line 674)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_apps_samples.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/sh_priceChart.png does not have an alt attribute (line 670)
+- ./x_designer_output/ds_element_1.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_element_2.html
+  *  image images/ds_apps.png does not have an alt attribute (line 1039)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_element_3.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_element_4.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_element_5.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_element_6.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_element_7.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_element_8.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_element_9.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_element_finish.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_element_main.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_access_sites.html
+  *  image images/cl_contributorNew.png does not have an alt attribute (line 455)
+  *  image images/cl_contributor_perms.png does not have an alt attribute (line 469)
+  *  image images/cl_contributor_site.png does not have an alt attribute (line 481)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_admin.html
+  *  image images/ds_apps.png does not have an alt attribute (line 548)
+  *  image images/ds_billing.png does not have an alt attribute (line 577)
+  *  image images/ds_billing_details.png does not have an alt attribute (line 590)
+  *  image images/ds_clientDetails.png does not have an alt attribute (line 481)
+  *  image images/ds_cloudAdmin.png does not have an alt attribute (line 469)
+  *  image images/ds_cloudAdmin.png does not have an alt attribute (line 441)
+  *  image images/ds_plan.png does not have an alt attribute (line 522)
+  *  image images/ds_planDetail.png does not have an alt attribute (line 534)
+  *  image images/ds_settingsLogo.png does not have an alt attribute (line 604)
+  *  image images/ds_team.png does not have an alt attribute (line 454)
+  *  image images/ds_team.png does not have an alt attribute (line 494)
+  *  image images/ds_teamDetail.png does not have an alt attribute (line 506)
+  *  image images/ds_theme.png does not have an alt attribute (line 563)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_apps.html
+  *  image images/appCenter.png does not have an alt attribute (line 449)
+  *  image images/appCenter_editor.png does not have an alt attribute (line 473)
+  *  image images/appDetails_long.png does not have an alt attribute (line 461)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/myApps_support.png does not have an alt attribute (line 485)
+- ./x_designer_output/ds_gs_checklist.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_client_ui.html
+  *  image images/cl_editor_restricted.png does not have an alt attribute (line 453)
+  *  image images/cl_site_preview.png does not have an alt attribute (line 465)
+  *  image images/cl_userPortal.png does not have an alt attribute (line 439)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_clients.html
+  *  image images/ds_clientDetails.png does not have an alt attribute (line 446)
+  *  image images/ds_clientsAdd.png does not have an alt attribute (line 464)
+  *  image images/ds_cloudAdmin.png does not have an alt attribute (line 434)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_configure.html
+  *  image images/cl_settings_URL.png does not have an alt attribute (line 534)
+  *  image images/cl_settings_customDomain.png does not have an alt attribute (line 507)
+  *  image images/cl_settings_mail.png does not have an alt attribute (line 437)
+  *  image images/cl_settings_support.png does not have an alt attribute (line 591)
+  *  image images/ds_settingsLogo.png does not have an alt attribute (line 450)
+  *  image images/ds_settingsLogoNew.png does not have an alt attribute (line 469)
+  *  image images/ds_settings_api.png does not have an alt attribute (line 639)
+  *  image images/ds_settings_contact.png does not have an alt attribute (line 614)
+  *  image images/ds_settings_domain.png does not have an alt attribute (line 495)
+  *  image images/ds_settings_message.png does not have an alt attribute (line 575)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_cr_sites.html
+  *  image images/cl_copysite.png does not have an alt attribute (line 584)
+  *  image images/cl_copysite.png does not have an alt attribute (line 560)
+  *  image images/cl_createfromtemplate.png does not have an alt attribute (line 573)
+  *  image images/cl_editor2.png does not have an alt attribute (line 621)
+  *  image images/cl_editor2.png does not have an alt attribute (line 690)
+  *  image images/cl_editor2.png does not have an alt attribute (line 644)
+  *  image images/cl_site_preview.png does not have an alt attribute (line 668)
+  *  image images/cl_theme_gallery.png does not have an alt attribute (line 467)
+  *  image images/ds_siteDelete.png does not have an alt attribute (line 760)
+  *  image images/ds_siteDetailEdit.png does not have an alt attribute (line 609)
+  *  image images/ds_siteDetailTemplate.png does not have an alt attribute (line 505)
+  *  image images/ds_siteDomain.png does not have an alt attribute (line 708)
+  *  image images/ds_siteMove.png does not have an alt attribute (line 724)
+  *  image images/ds_siteMove2.png does not have an alt attribute (line 736)
+  *  image images/ds_sitePreview.png does not have an alt attribute (line 656)
+  *  image images/ds_siteRemoveTemplate.png does not have an alt attribute (line 523)
+  *  image images/ds_site_create.png does not have an alt attribute (line 457)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/sh_reconnect.png does not have an alt attribute (line 543)
+  *  linking to ds_api_site.html#deletedelete-a-site, but deletedelete-a-site does not exist (line 768)
+     <a href="ds_api_site.html#deletedelete-a-site">DELETE /site API</a>
+  *  linking to ds_api_site.html#getretrieve-details-for-a-site, but getretrieve-details-for-a-site does not exist (line 747)
+     <a href="ds_api_site.html#getretrieve-details-for-a-site"></a>
+  *  linking to ds_api_site.html#postdisable-a-site, but postdisable-a-site does not exist (line 745)
+     <a href="ds_api_site.html#postdisable-a-site"></a>
+  *  linking to ds_api_site.html#postenable-a-site, but postenable-a-site does not exist (line 747)
+     <a href="ds_api_site.html#postenable-a-site"></a>
+  *  linking to ds_api_site.html#postunpublish-a-site, but postunpublish-a-site does not exist (line 750)
+     <a href="ds_api_site.html#postunpublish-a-site"></a>
+- ./x_designer_output/ds_gs_invoice.html
+  *  image images/cl_billing.png does not have an alt attribute (line 459)
+  *  image images/cl_billing_create.png does not have an alt attribute (line 442)
+  *  image images/cl_billing_details.png does not have an alt attribute (line 472)
+  *  image images/cl_billing_details.png does not have an alt attribute (line 507)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_market.html
+  *  image images/cl_promoModal.png does not have an alt attribute (line 436)
+  *  image images/cl_upsell_custom.png does not have an alt attribute (line 448)
+  *  image images/ds_upsellURL.png does not have an alt attribute (line 468)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_plans.html
+  *  image images/ds_plansAdd.png does not have an alt attribute (line 480)
+  *  image images/ds_plans_compare.png does not have an alt attribute (line 447)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_restore.html
+  *  image images/cl_recoverSite.png does not have an alt attribute (line 435)
+  *  image images/ds_recoverElement.png does not have an alt attribute (line 463)
+  *  image images/ds_recoverPage.png does not have an alt attribute (line 449)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_ssl.html
+  *  image images/cl_ssl.png does not have an alt attribute (line 434)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_team_members.html
+  *  image images/ds_memberCreate.png does not have an alt attribute (line 450)
+  *  image images/ds_memberCreate.png does not have an alt attribute (line 495)
+  *  image images/ds_team.png does not have an alt attribute (line 437)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_trouble.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_gs_upgrades.html
+  *  image images/cl_upgrade.png does not have an alt attribute (line 437)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_mg_about.html
+  *  image images/cl_editor2.png does not have an alt attribute (line 354)
+  *  image images/ds_cloudAdmin.png does not have an alt attribute (line 342)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  internally linking to downloads/Migration.pdf, which does not exist (line 323)
+     <a href="downloads/Migration.pdf"><button type="button" class="btn btn-primary">Download a PDF version</button></a>
+- ./x_designer_output/ds_mg_account.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/new_account.png does not have an alt attribute (line 338)
+  *  image images/new_accountEdit.png does not have an alt attribute (line 350)
+  *  image images/old_account.png does not have an alt attribute (line 326)
+- ./x_designer_output/ds_mg_clients.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/new_ClientsTab.png does not have an alt attribute (line 341)
+  *  image images/new_clientAdd1.png does not have an alt attribute (line 375)
+  *  image images/new_clientAdd2.png does not have an alt attribute (line 386)
+  *  image images/new_clientDetailsMap.png does not have an alt attribute (line 423)
+  *  image images/new_clientEdit.png does not have an alt attribute (line 439)
+  *  image images/new_clientNote.png does not have an alt attribute (line 455)
+  *  image images/old_addClient.png does not have an alt attribute (line 363)
+  *  image images/old_clientList.png does not have an alt attribute (line 327)
+  *  image images/old_editClient.png does not have an alt attribute (line 400)
+  *  image images/old_editClient2.png does not have an alt attribute (line 411)
+- ./x_designer_output/ds_mg_control.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/new_Contributor.png does not have an alt attribute (line 341)
+  *  image images/new_ContributorAdd.png does not have an alt attribute (line 353)
+  *  image images/new_contribPermssion.png does not have an alt attribute (line 377)
+  *  image images/new_contributorSet.png does not have an alt attribute (line 365)
+  *  image images/old_clientAccess.png does not have an alt attribute (line 327)
+  *  image images/old_staffAccess.png does not have an alt attribute (line 389)
+- ./x_designer_output/ds_mg_portal.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/new_contactAdd.png does not have an alt attribute (line 360)
+  *  image images/new_contacts.png does not have an alt attribute (line 348)
+  *  image images/new_settingsDomain.png does not have an alt attribute (line 413)
+  *  image images/new_settingsIcon.png does not have an alt attribute (line 386)
+  *  image images/new_settingsURL.png does not have an alt attribute (line 426)
+  *  image images/old_portal.png does not have an alt attribute (line 327)
+  *  image images/old_portalBrand.png does not have an alt attribute (line 372)
+  *  image images/old_urls.png does not have an alt attribute (line 400)
+- ./x_designer_output/ds_mg_retired.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_mg_sites.html
+  *  image images/cl_editor2.png does not have an alt attribute (line 401)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/new_blogComments.png does not have an alt attribute (line 580)
+  *  image images/new_blogCommentsMge.png does not have an alt attribute (line 592)
+  *  image images/new_elementRestore.png does not have an alt attribute (line 507)
+  *  image images/new_form.png does not have an alt attribute (line 616)
+  *  image images/new_formEntry.png does not have an alt attribute (line 628)
+  *  image images/new_restoreElement2.png does not have an alt attribute (line 519)
+  *  image images/new_restoreSite.png does not have an alt attribute (line 491)
+  *  image images/new_siteAdd.png does not have an alt attribute (line 339)
+  *  image images/new_siteAdd2.png does not have an alt attribute (line 350)
+  *  image images/new_siteDelete.png does not have an alt attribute (line 463)
+  *  image images/new_siteDeletedList.png does not have an alt attribute (line 475)
+  *  image images/new_siteDetail.png does not have an alt attribute (line 365)
+  *  image images/new_siteEdit.png does not have an alt attribute (line 389)
+  *  image images/new_sitePlan.png does not have an alt attribute (line 644)
+  *  image images/new_sitePreview.png does not have an alt attribute (line 425)
+  *  image images/new_sitePreview2.png does not have an alt attribute (line 437)
+  *  image images/new_siteStats.png does not have an alt attribute (line 556)
+  *  image images/new_userPortal.png does not have an alt attribute (line 544)
+  *  image images/old_addSite.png does not have an alt attribute (line 327)
+  *  image images/old_comments.png does not have an alt attribute (line 568)
+  *  image images/old_editSite.png does not have an alt attribute (line 377)
+  *  image images/old_forms.png does not have an alt attribute (line 604)
+  *  image images/old_previewSite.png does not have an alt attribute (line 413)
+  *  image images/old_siteDelete.png does not have an alt attribute (line 451)
+  *  image images/old_siteStats.png does not have an alt attribute (line 531)
+- ./x_designer_output/ds_mg_staff.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/new_team.png does not have an alt attribute (line 339)
+  *  image images/new_teamAdd.png does not have an alt attribute (line 363)
+  *  image images/new_teamDelete.png does not have an alt attribute (line 389)
+  *  image images/new_teamDetails.png does not have an alt attribute (line 461)
+  *  image images/new_userDetail.png does not have an alt attribute (line 425)
+  *  image images/new_userPassword.png does not have an alt attribute (line 437)
+  *  image images/new_users.png does not have an alt attribute (line 413)
+  *  image images/old_staff.png does not have an alt attribute (line 401)
+  *  image images/old_staffAdd.png does not have an alt attribute (line 351)
+  *  image images/old_staffDetails.png does not have an alt attribute (line 449)
+  *  image images/old_staffDetails.png does not have an alt attribute (line 377)
+  *  image images/old_staffList.png does not have an alt attribute (line 327)
+- ./x_designer_output/ds_mg_support.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/new_submitTicket.png does not have an alt attribute (line 331)
+- ./x_designer_output/ds_tags_about.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_1.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_10.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/theme_export.png does not have an alt attribute (line 1112)
+- ./x_designer_output/ds_themes_2.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/importTheme.gif does not have an alt attribute (line 1137)
+- ./x_designer_output/ds_themes_3.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/theme_color_support.gif does not have an alt attribute (line 1143)
+  *  image images/theme_palette.png does not have an alt attribute (line 1188)
+  *  image images/themes_colorpresets.gif does not have an alt attribute (line 1165)
+- ./x_designer_output/ds_themes_4.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/themeLightDark.png does not have an alt attribute (line 1106)
+  *  image images/theme_variables.gif does not have an alt attribute (line 1165)
+- ./x_designer_output/ds_themes_5.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/theme_header_choice.png does not have an alt attribute (line 1107)
+  *  image images/theme_header_edit.gif does not have an alt attribute (line 1147)
+- ./x_designer_output/ds_themes_6.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/theme_float_left.gif does not have an alt attribute (line 1163)
+  *  image images/theme_float_right.gif does not have an alt attribute (line 1228)
+  *  image images/theme_header_new.png does not have an alt attribute (line 1245)
+- ./x_designer_output/ds_themes_7.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/theme_blogDefault.png does not have an alt attribute (line 1109)
+  *  image images/theme_blog_edit.gif does not have an alt attribute (line 1143)
+- ./x_designer_output/ds_themes_8.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/theme_option_onoff.gif does not have an alt attribute (line 1157)
+- ./x_designer_output/ds_themes_9.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_LESS.html
+  *  External link http://lesscss.org failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_anatomy.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/themeHeader.png does not have an alt attribute (line 748)
+  *  image images/themeLayout1.png does not have an alt attribute (line 836)
+  *  image images/themeLayout2.png does not have an alt attribute (line 849)
+  *  image images/themePartial.png does not have an alt attribute (line 865)
+  *  image images/theme_header.png does not have an alt attribute (line 795)
+  *  image images/theme_noheader.png does not have an alt attribute (line 809)
+  *  image images/theme_optionNav.png does not have an alt attribute (line 941)
+  *  image images/theme_paletteBlue.png does not have an alt attribute (line 887)
+  *  image images/theme_paletteBlueDark.png does not have an alt attribute (line 899)
+  *  image images/theme_splash.png does not have an alt attribute (line 823)
+  *  image images/theme_variations.png does not have an alt attribute (line 911)
+  *  image images/theme_variationsRed.png does not have an alt attribute (line 923)
+  *  image images/themesSectionChange.png does not have an alt attribute (line 776)
+- ./x_designer_output/ds_themes_blogPartials.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/partial_blog_comments.png does not have an alt attribute (line 761)
+  *  image images/partial_blog_layout.png does not have an alt attribute (line 741)
+  *  image images/partial_blog_modules.png does not have an alt attribute (line 781)
+  *  image images/partial_blog_more.png does not have an alt attribute (line 795)
+  *  image images/partial_blog_page.png does not have an alt attribute (line 809)
+  *  image images/partial_blog_post.png does not have an alt attribute (line 823)
+- ./x_designer_output/ds_themes_comPartials.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/partial_commerce_empty.png does not have an alt attribute (line 822)
+  *  image images/partial_commerce_footer.png does not have an alt attribute (line 836)
+  *  image images/partial_commerce_hierarchy.png does not have an alt attribute (line 761)
+  *  image images/partial_commerce_item.png does not have an alt attribute (line 850)
+  *  image images/partial_commerce_main.png does not have an alt attribute (line 745)
+  *  image images/partial_commerce_mainProd.png does not have an alt attribute (line 867)
+  *  image images/partial_commerce_mainProd2.png does not have an alt attribute (line 890)
+  *  image images/partial_commerce_page.png does not have an alt attribute (line 776)
+  *  image images/partial_commerce_product.png does not have an alt attribute (line 790)
+  *  image images/partial_commerce_social.png does not have an alt attribute (line 912)
+  *  image images/partial_commerce_subcat.png does not have an alt attribute (line 804)
+- ./x_designer_output/ds_themes_create.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_create_templates.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/themeHeader.png does not have an alt attribute (line 968)
+  *  image images/theme_header.png does not have an alt attribute (line 748)
+  *  image images/theme_noheader.png does not have an alt attribute (line 762)
+  *  image images/theme_splash.png does not have an alt attribute (line 776)
+  *  image images/themesHTML.png does not have an alt attribute (line 836)
+  *  image images/themesSectionChange.png does not have an alt attribute (line 1003)
+  *  image images/themesSocial.png does not have an alt attribute (line 896)
+- ./x_designer_output/ds_themes_deliver.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/theme_gallery.png does not have an alt attribute (line 785)
+  *  image images/theme_gallery.png does not have an alt attribute (line 741)
+  *  image images/themes_adminCreate.png does not have an alt attribute (line 773)
+- ./x_designer_output/ds_themes_design_resources.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_directory.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/themeDirectory.png does not have an alt attribute (line 776)
+- ./x_designer_output/ds_themes_element_guidelines.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_faqs.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_finish.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_guidelines.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/themeHeader.png does not have an alt attribute (line 797)
+  *  image images/theme_header.png does not have an alt attribute (line 757)
+  *  image images/theme_lightDark.png does not have an alt attribute (line 882)
+  *  image images/theme_noheader.png does not have an alt attribute (line 771)
+  *  image images/theme_palette.png does not have an alt attribute (line 854)
+  *  image images/theme_splash.png does not have an alt attribute (line 785)
+  *  image images/theme_variations.png does not have an alt attribute (line 896)
+  *  image images/themesSectionChange.png does not have an alt attribute (line 809)
+  *  image images/themes_palettePrimary.png does not have an alt attribute (line 869)
+- ./x_designer_output/ds_themes_implement_css.html
+  *  External link http://lesscss.org/features failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_import_export.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/theme_export.png does not have an alt attribute (line 772)
+- ./x_designer_output/ds_themes_issues.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_manifest.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_membershipPartials.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/partial_membershipAccount.png does not have an alt attribute (line 741)
+  *  image images/partial_membershipDenied.png does not have an alt attribute (line 755)
+  *  image images/partial_membershipLogin.png does not have an alt attribute (line 769)
+  *  image images/partial_membershipReset.png does not have an alt attribute (line 783)
+  *  image images/partial_membershipSet.png does not have an alt attribute (line 797)
+- ./x_designer_output/ds_themes_mustache.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_navPartials.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/partial_nav.png does not have an alt attribute (line 740)
+- ./x_designer_output/ds_themes_options.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/theme_optionNav.png does not have an alt attribute (line 832)
+  *  image images/theme_options.png does not have an alt attribute (line 741)
+- ./x_designer_output/ds_themes_page.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_palette.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/theme_paletteBlue.png does not have an alt attribute (line 743)
+  *  image images/theme_palettePrimary.png does not have an alt attribute (line 797)
+  *  image images/theme_palettePrimaryAccent.png does not have an alt attribute (line 809)
+  *  image images/theme_palettePrimaryAccent.png does not have an alt attribute (line 767)
+  *  image images/theme_paletteRose.png does not have an alt attribute (line 755)
+- ./x_designer_output/ds_themes_partials.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_sample.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_screenshot.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/themeGallery.png does not have an alt attribute (line 740)
+- ./x_designer_output/ds_themes_searchPartials.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/partial_searchEmpty.png does not have an alt attribute (line 773)
+  *  image images/partial_searchHeader.png does not have an alt attribute (line 741)
+  *  image images/partial_searchNormal.png does not have an alt attribute (line 791)
+  *  image images/partial_searchPage.png does not have an alt attribute (line 755)
+  *  image images/partial_searchProduct.png does not have an alt attribute (line 805)
+- ./x_designer_output/ds_themes_start.html
+  *  image images/cl_themes_admin.png does not have an alt attribute (line 785)
+  *  image images/ds_theme_gallery.png does not have an alt attribute (line 807)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/theme_codeEditor.png does not have an alt attribute (line 770)
+  *  image images/theme_lightHeader.png does not have an alt attribute (line 748)
+- ./x_designer_output/ds_themes_tutorial.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_update.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_themes_variations.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/theme_paletteBlue.png does not have an alt attribute (line 741)
+  *  image images/theme_paletteBlueDark.png does not have an alt attribute (line 753)
+  *  image images/theme_variations.png does not have an alt attribute (line 766)
+  *  image images/theme_variationsRed.png does not have an alt attribute (line 778)
+- ./x_designer_output/ds_timezones.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_wh_blog.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_wh_form.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_wh_member.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_wh_site.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_wh_store.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_wh_user.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/ds_wh_webhooks.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/glossary.html
+  *  anchor has no href attribute (line 1)
+     <a data-container="body" data-toggle="popover" data-content="{{site.data.glossary.OAuth}}"></a>
+- ./x_designer_output/home.html
+  *  image images/appCenter.png does not have an alt attribute (line 506)
+  *  image images/cl_editorBranded.png does not have an alt attribute (line 493)
+  *  image images/cl_theme_gallery.png does not have an alt attribute (line 547)
+  *  image images/cl_userPortal.png does not have an alt attribute (line 477)
+  *  image images/ds_cloudAdmin.png does not have an alt attribute (line 457)
+  *  image images/ds_cloudAdminSupport.png does not have an alt attribute (line 564)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+  *  image images/theme_codeEditor.png does not have an alt attribute (line 533)
+- ./x_designer_output/tag_apps.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/tag_clients.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/tag_configuration.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/tag_elements.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/tag_getting_started.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/tag_plans.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/tag_sites.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/tag_themes.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/tag_troubleshooting.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/titlepage.html
+  *  External link https://robinwhitmore.github.io//images/company_logo.svg failed: 404 No error
+  *  image https://robinwhitmore.github.io//images/company_logo.svg does not have an alt attribute (line 436)
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+- ./x_designer_output/tocpage.html
+  *  image images/icons/mobile-menu.svg does not have an alt attribute (line 46)
+htmlproofer 3.6.0 | Error:  HTML-Proofer found 436 failures!

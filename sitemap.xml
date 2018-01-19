@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+
+
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_about.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_account.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_blog.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_blog_post.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_category.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_category_image.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_coupon.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_form.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_form_entry.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_group.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_member.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_order.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_order_billing.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_order_billing_transaction.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_order_item.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_order_shipment.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_order_shipment_transaction.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_page.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_plan.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_product.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_product_image.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_product_option.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_product_sku.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_product_sku_option_choice.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_site.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_store.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_subaccount.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_team_member.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_terms.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_themes_cloud.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_themes_user.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_api_user.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apis_page.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_backend.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_dev.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_element_create.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_element_folders.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_element_js.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_element_man_ex.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_element_manifest.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_element_release.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_element_settings.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_element_style.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_element_temp.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_element_temp_ex.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_element_test.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_element_update.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_element_upload.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_elements.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_files.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_gs.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_guides.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_icon.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_manage.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_manifest.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_reg.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_apps_samples.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_element_1.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_element_2.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_element_3.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_element_4.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_element_5.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_element_6.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_element_7.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_element_8.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_element_9.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_element_finish.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_element_main.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_access_sites.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_admin.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_admin_users.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_apps.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_client_ui.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_configure.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_cr_sites.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_editSites.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_hosting.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_integration.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_invoice.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_loginlink.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_market.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_plans.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_removeSites.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_restore.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_sites.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_ssl.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_subresellers.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_team_members.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_trouble.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_upgrades.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_gs_users.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_about.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_appdirect_activate.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_appdirect_customer.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_appdirect_products.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_aps2_customer.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_aps2_install.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_aps2_plans.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_aps2_troubleshoot.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_cp_billing.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_cp_customer.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_cp_install.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_whmcs_bundles.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_whmcs_customer.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_whmcs_install.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_whmcs_localize.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_whmcs_products.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_whmcs_suspend.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_whmcs_troubleshoot.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_plugins_whmcs_urls.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_tags.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_1.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_10.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_2.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_3.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_4.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_5.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_6.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_7.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_8.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_9.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_LESS.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_anatomy.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_blogPartials.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_comPartials.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_create.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_create_templates.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_deliver.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_design_resources.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_directory.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_element_guidelines.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_faqs.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_finish.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_guidelines.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_implement_css.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_import_export.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_issues.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_manifest.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_membershipPartials.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_mustache.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_navPartials.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_options.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_page.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_palette.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_partials.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_sample.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_screenshot.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_searchPartials.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_start.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_tutorial.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_update.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_themes_variations.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_timezones.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_wh_blog.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_wh_form.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_wh_member.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_wh_site.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_wh_store.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_wh_user.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_wh_webhooks.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cl_glossary.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/home.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/css/theme-weebly.css</loc>
+  </url>
+  
+  
+  
+  
+  
+  
+</urlset>

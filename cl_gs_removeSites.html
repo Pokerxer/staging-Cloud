@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="You can temporarily suspend a site for late or non-payment. You can also permanently delete a site. Unpublishing a site means that the site is no longer live...">
+<meta name="keywords" content="getting_startedsites,  suspend, restore, unpublish, delete, sites">
+<title>Suspend and Remove Sites | Weebly Cloud Developer Documentation</title>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- Third-Party CSS -->
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" media="screen" href="css/orbit-external.css">
+<link rel="stylesheet" media="screen" href="css/orbit.css">
+<link rel="stylesheet" media="screen" href="css/theme-weebly.css">
+
+<!-- Third-Party JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+<script src="js/jekyll-search.js" type="text/javascript"></script>
+<script src="js/toc.js"></script>
+
+<!-- Custom JS -->
+<script src="js/customscripts.js"></script>
+
+
+
+</head>
+<body>
+
+<!-- Navigation -->
+
+<div class="top-nav">
+
+	<div class="top-nav-item">
+		<img src="images/weebly_cloud_logo.svg" alt="Weebly Cloud" class="cloud-logo" role="button" tabindex="0" alt="menu"/>
+	</div>
+
+	<div class="top-nav-item">
+		<img class="mobile-nav-btn" src="images/icons/mobile-menu.svg" alt="Mobile menu">
+	</div>
+
+	<nav class="top-nav-item">
+		<div class="nav-group">
+			<ul class="NavList nav-group-list horizontal">
+				<!-- entries without drop-downs appear here -->
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="home.html" class="NavLink nav-group-list-link">Get Started</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_api_about.html" class="NavLink nav-group-list-link">Cloud API</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_plugins_about.html" class="NavLink nav-group-list-link">Plugins</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_apps_gs.html" class="NavLink nav-group-list-link">Apps</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_themes_start.html" class="NavLink nav-group-list-link">Themes</a>
+				</li>
+				
+				
+				
+				<li class="NavLinkLi">
+					<a href="cl_tags.html" class="NavLink nav-group-list-link">Tags</a>
+				</li>
+				
+				
+				
+				<!-- entries with drop-downs appear here -->
+				<!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+				
+				<!--
+			<li class="NavLinkLi">
+
+
+
+  <a class="email NavLink nav-group-list-link" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:rwhitmore@weebly.com?subject=Weebly Cloud Developer Docs feedback&body=I have some feedback about the Suspend and Remove Sites page: ' + window.location.href;">Feedback</a>
+
+</li>
+
+-->
+        <li class="NavLinkLi">
+
+  <a href="https://weeblycloud.com/admin" target="_blank">Cloud Admin</a>
+</li>
+
+
+		
+
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="Search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+	</nav>
+</div>
+
+
+
+
+
+
+<div class="page has-sidebar">
+    
+      <div class="col-sidebar">
+       	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav NavList">
+    
+	    
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">Get Started</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="home.html" class="NavLink isSecondary">Get Started with Weebly Cloud</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_integration.html" class="NavLink isSecondary">Integration Overview</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_admin.html" class="NavLink isSecondary">Use Weebly Cloud Admin</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_client_ui.html" class="NavLink isSecondary">How Your Clients Work with You</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_apps.html" class="NavLink isSecondary">Provide Apps to Your Customers</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_hosting.html" class="NavLink isSecondary">Understand Hosting Options</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_configure.html" class="NavLink isSecondary">Configure Weebly Cloud</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_team_members.html" class="NavLink isSecondary">Create Cloud Admin Users</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">Integrate Weebly</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_plans.html" class="NavLink isSecondary">Create Plans</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_users.html" class="NavLink isSecondary">Create and Manage Users</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_cr_sites.html" class="NavLink isSecondary">Create Sites</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">Manage Weebly</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_upgrades.html" class="NavLink isSecondary">Handle Upgrades</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_loginlink.html" class="NavLink isSecondary">Provide SSO Access with a loginLink</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_editSites.html" class="NavLink isSecondary">Edit, Preview, and Publish Sites</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="active isActive NavLinkLi">
+					            	<a href="cl_gs_removeSites.html" class="NavLink  isSecondary">Suspend and Remove Sites</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_restore.html" class="NavLink isSecondary">Restore Elements, Pages, and Sites</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_ssl.html" class="NavLink isSecondary">Allow Sites to Use SSL</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_access_sites.html" class="NavLink isSecondary">Create and Manage Site Contributors</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_subresellers.html" class="NavLink isSecondary">Create and Manage Sub-Resellers</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_market.html" class="NavLink isSecondary">Market to Your Customers in Weebly</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_invoice.html" class="NavLink isSecondary">View and Pay Weebly Invoices</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+		    
+
+			    <li class="NavLinkLi">
+			        <a href="#" class="NavLink isSecondary">Troubleshooting</a>
+			        <ul class="NavList Children">
+			            
+			            
+
+				            
+					            <li class="NavLinkLi">
+					            	<a href="cl_gs_trouble.html" class="NavLink isSecondary">Troubleshooting Weebly Cloud</a>
+					            </li>
+				            
+
+				            
+			            
+			            
+			        </ul>
+			    </li>
+		    
+	    
+    
+
+</ul>
+
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>
+$("li.active").parents('li').toggleClass("active");
+</script>
+
+      </div>
+    
+
+    <div class="col-content">
+        <div>
+    <div class="post-header">
+        <h1 class="post-title-main display-1">Suspend and Remove Sites</h1>
+    </div>
+    <div class="page-type">  task </div>
+</div>
+
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">You can temporarily suspend a site for late or non-payment. You can also permanently delete a site. Unpublishing a site means that the site is no longer live, however it can be accessed in the editor and republished.</div>
+   
+
+    
+    <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+
+	$('#toc').toc({
+		minimumHeaders: 2, // Don't show ToC if there is only one header
+		listType: 'ul',
+		showSpeed: 0,
+		headers: 'h2'
+	});
+
+	/* this offset helps account for the space taken up by the floating toolbar. */
+	$('#toc').on('click', 'a', function() {
+	  var target = $(this.getAttribute('href'))
+	    , scroll_target = target.offset().top
+
+	  $(window).scrollTop(scroll_target - 50);
+	  return false
+	})
+
+});
+</script>
+
+<div id="toc" class="toc"></div>
+
+    
+
+    
+
+  <h2 id="suspend-access-to-a-site">Suspend Access to a Site</h2>
+<p>To temporarily prevent a user from updating their site in the event they are delinquent on their payment, their access to a site can be suspended using the <a href="cl_api_site.html#postdisable-a-site"><code class="highlighter-rouge">Site::disable</code></a> endpoint. When a site is suspended, access to the Weebly editor is disabled (the published site remains unchanged and active).</p>
+
+<p><a href="cl_gs_loginLink.html">SSO loginLinks</a> can still be generated for a suspended site. Clicking on a loginLink will inform the user that access to the site is disabled and will point them to contact their administrator.</p>
+
+<p>Use the <a href="cl_api_site.html#getretrieve-details-for-a-site"><code class="highlighter-rouge">GET /site</code></a> API which returns a <code class="highlighter-rouge">suspended</code> parameter with a value of <code class="highlighter-rouge">true</code> or <code class="highlighter-rouge">false</code> to determine if a site is suspended (the Cloud Admin also shows you if a site is suspended).  A site can be taken out of a suspended state by making a call to <a href="cl_api_site.html#postenable-a-site"><code class="highlighter-rouge">Site::enable</code></a>.​</p>
+
+<p>If you use the <a href="cl_plugins_whmcs_suspend.html">WHMCS plug-in</a>, you can use that to suspend and reactivate accounts.</p>
+
+<h2 id="unpublish-a-site">Unpublish a Site</h2>
+<p>In the event you want to unpublish a site you can use the <a href="cl_api_site.html#postunpublish-a-site"><code class="highlighter-rouge">Site::unpublish</code></a> endpoint. This will unpublish the site, but not prevent the user from republishing, if they have access to do so. This API method should not be taken lightly. Unpublishing a user’s site should be communicated far in advance so the user can take the appropriate steps to remedy the situation.</p>
+
+<h2 id="delete-a-site">Delete a Site</h2>
+<p>If a user cancels their subscription you can delete their site(s). This completely prevents the user from accessing the site by SSO loginLink or login credentials. Weebly will no longer bill the partner for the site once it is deleted. You can delete a site from the site detail page in the Cloud Admin.</p>
+
+<figure class="post-content__figure">
+	
+
+	<img class="post-content__image" src="images/cl_site_detail_delete.png" alt="" />
+
+	
+
+	
+		<figcaption>Delete a site from the Cloud Admin</figcaption>
+	</figure>
+
+<p>You can also delete a site by making a call to the <a href="cl_api_site.html#deletedelete-a-site">DELETE /site API</a>.</p>
+
+
+    <div class="tags">
+        
+            Tags:<br/>
+	        
+
+            
+
+                
+		        	<a href="tag_getting_started.html" class="btn btn-default navbar-btn cursorNorm tags-link" role="button">getting_started</a>
+		        
+
+	        
+
+                
+		        	<a href="tag_sites.html" class="btn btn-default navbar-btn cursorNorm tags-link" role="button">sites</a>
+		        
+
+	        
+        
+    </div>
+
+    
+
+</div>
+
+<hr class="shaded"/>
+
+<footer class="footer">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="footer__fineprint">
+				&copy;2018 Weebly. All rights reserved. <br />
+				 Site last generated: Jan 18, 2018
+			</div>
+			<div class="footer__logo">
+				<img src="images/weebly_logo.svg" alt="Weebly logo"/>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+    </div>
+</div>
+
+
+
+</body>
+</html>
