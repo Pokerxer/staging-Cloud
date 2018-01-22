@@ -882,11 +882,11 @@
 		}, 
 	
 		{
-			"title": "Topics",
+			"title": "Tags",
 			"tags": "",
 			"keywords": "tags",
 			"url": "cl_tags.html",
-			"summary": "Use topics to find articles based on subject matter."
+			"summary": "Click a Tag card to find articles based on a subject matter."
 		}, 
 	
 		{
