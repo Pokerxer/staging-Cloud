@@ -107,7 +107,7 @@
 -->
         <li class="NavLinkLi">
 
-  <a href="https://weeblycloud.com/admin" target="_blank" class="NavLink nav-group-list-link">Cloud Admin</a>
+  <a href="https://weeblycloud.com/admin" target="_blank" class="NavLink nav-group-list-link"><strong>Cloud Admin</strong></a>
 </li>
 
 
@@ -496,14 +496,15 @@ $( document ).ready(function() {
 
     
 
-  <h2 id="self-hosting">Self-Hosting</h2>
+  
+<h2 id="self-hosting">Self-Hosting</h2>
 
 <p>When you host your sites, all HTTP requests go through your server. And all static content (html, js, css, images, etc.) are also served from your server. Some dynamic content (eCommerce, membership, blogs, etc.) require a call to a Weebly endpoint that then returns the relevant content. Some dynamic pieces of content are cached on the hosted server to facilitate better performance.</p>
 
 <h3 id="on-a-more-technical-level">On a more technical level…</h3>
 <p>When a user publishes a site, we FTP some static files (<code class="highlighter-rouge">index.html</code>), our proxy files (a few PHP files) and <code class="highlighter-rouge">.htaccess</code> to the location you’ve specified for that <a href="cl_api_site.html#postset-publish-credentials">site</a>. The php file is very small and acts as a proxy. The first request to the published site is responded to by the php file (via the 404 handler specified in <code class="highlighter-rouge">.htaccess</code>). The php file makes a call to Weebly for the contents of the page. The contents are then returned to the user’s browser. At the same time, the php file caches the content for each subsequent request to avoid future trips to Weebly for the contents. Upon next publish of the site the cache is cleared and the process starts again.</p>
 
-<h3 id="requirements-for-self-hosting">Requirements for self-hosting</h3>
+<h3 id="requirements-for-self-hosting">Requirements for Self-hosting</h3>
 <ul>
   <li>LinuxServer</li>
   <li>Apache (64 bit), with <code class="highlighter-rouge">mod_rewrite</code> and <code class="highlighter-rouge">mod_authz_core</code> modules activated/installed</li>
@@ -517,16 +518,18 @@ $( document ).ready(function() {
 
 <h2 id="weebly-hosting">Weebly Hosting</h2>
 
-<p>When you choose to have Weebly host your customer sites, all files live on Weebly’s servers. There’s no limit to the amount of storage space your sites use when you choose Weebly hosting.</p>
+<p>When you choose to have Weebly host your customer sites, all your sites’ files live on Weebly’s servers and there’s no limit to the amount of storage space they can use.</p>
 
 <div class="Notice type_info" role="alert">
-	<b>Note:</b> When hosting at Weebly, you do not have FTP or SSH access to the Weebly infrastructure.
+	<b>Note:</b> 
+When hosting at Weebly, you do not have FTP or SSH access to the Weebly infrastructure.
+
 </div>
 
 <p>​</p>
 <h3 id="reliability">Reliability</h3>
 
-<p>Weebly operates geographically redundant data centers and are PCI Saq C compliant. Monthly, 3rd party security scans are performed against the entire network. Additionally, Weebly has near-real time replication of user data between our Primary and DR data centers. Weebly also has full control over the entire network, including Switching, Routing (AS27647), IP space, etc. Weebly has extensive in-house DDoS mitigation capabilities (as well as external mitigation options).</p>
+<p>Weebly operates geographically redundant data centers and are PCI Saq C compliant. Monthly, 3rd party security scans are performed against the entire network. Additionally, Weebly has near-real time replication of user data between our Primary and DR data centers. Weebly also has full control over the entire network, including switching, routing (AS27647), IP space, etc. Weebly has extensive in-house DDoS mitigation capabilities (as well as external mitigation options).</p>
 
 <h3 id="requirements">Requirements</h3>
 <ul>
@@ -538,18 +541,20 @@ $( document ).ready(function() {
 </div>
 
 <ul>
-  <li>If providing an SSL certificate for a site, you must point the A record to the IP address shown in the dialog when enabling SSL.
-    <figure class="post-content__figure">
+  <li>If providing an SSL certificate for a site, you must point the A record to the IP address shown in the dialog when enabling SSL.</li>
+</ul>
+<figure class="post-content__figure">
 	
 
-  <img class="post-content__image" src="images/cl_ssl_modal.png" alt="SSL Modal in Weebly" />
+	<img class="post-content__image" src="images/cl_ssl_modal.png" alt="SSL Modal in Weebly" />
 
 	
 
 	
-      <figcaption>SSL Modal in Weebly</figcaption>
-  </figure>
-  </li>
+		<figcaption>SSL Modal in Weebly</figcaption>
+	</figure>
+
+<ul>
   <li>​Non-SSL sites may pick any IP between <code class="highlighter-rouge">199.34.228.55</code> and <code class="highlighter-rouge">199.34.228.59</code>.</li>
 </ul>
 
@@ -589,7 +594,7 @@ $( document ).ready(function() {
 		<div class="col-lg-12">
 			<div class="footer__fineprint">
 				&copy;2018 Weebly. All rights reserved. <br />
-				 Site last generated: Jan 23, 2018
+				 Site last generated: Jan 26, 2018
 			</div>
 			<div class="footer__logo">
 				<img src="images/weebly_logo.svg" alt="Weebly logo"/>
