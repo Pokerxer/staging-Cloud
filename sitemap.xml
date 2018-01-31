@@ -926,6 +926,12 @@
   
   
   <url>
+    <loc>http://localhost:4000/cl_wh_app.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/cl_wh_blog.html</loc>
   </url>
   
